@@ -1,11 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kopinfo — Selamat Datang</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="Logo Kopinfo" class="logo">
+        <span class="brand-name">Kopinfo</span>
+      </a>
+      <nav aria-label="Navigasi utama">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="reservation.html">Reservation</a> </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="background-image:url('images/coffee-bg.jpg')">
+      <div class="container hero-content">
+        <h1>Selamat Datang di Kopinfo</h1>
+        <p class="lead">Secangkir kopi, suasana nyaman, dan obrolan yang menyenangkan.</p>
+        <p><a class="btn" href="menu.html">Lihat Menu</a></p>
+      </div>
+    </section>
+
+    <section class="favorites container">
+      <h2>Menu Favorit</h2>
+      <ul class="grid">
+        <li class="card">
+          <img src="images/espresso.jpg" alt="Espresso" class="menu-img">
+          <h3>Espresso</h3>
+          <p class="muted">Rp18.000 — Single shot</p>
+        </li>
+        <li class="card">
+          <img src="images/latte.jpg" alt="Latte" class="menu-img">
+          <h3>Latte</h3>
+          <p class="muted">Rp25.000 — Susu lembut</p>
+        </li>
+        <li class="card">
+          <img src="images/cappuccino.jpg" alt="Cappuccino" class="menu-img">
+          <h3>Cappuccino</h3>
+          <p class="muted">Rp27.000 — Busanya lembut</p>
+        </li>
+        <li class="card">
+          <img src="images/cake.jpg" alt="Cake" class="menu-img">
+          <h3>Caramel Cake</h3>
+          <p class="muted">Rp35.000 — Pelengkap kopi</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Kopinfo</strong> — Jl. Pluto Nomor 67</p>
+      <p class="small">© 2025 Kopinfo</p>
+    </div>
+  </footer>
 </body>
 </html>

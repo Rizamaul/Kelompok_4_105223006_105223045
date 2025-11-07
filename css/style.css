@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background-color: #fff7f1;
+  color: #222;
+  line-height: 1.5;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.site-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #222;
+}
+.brand-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+}
+.nav-list a {
+  text-decoration: none;
+  color: #6b6b6b;
+
+}
+.nav-list a[aria-current="page"],
+.nav-list a:hover {
+  color: #6b3f2b;
+  font-weight: 600;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+}
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #6b3f2b;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  text-align: center;
+}
+.menu-img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.muted {
+  color: #6b6b6b;
+}
+.small {
+  font-size: 0.9rem;
+}
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.menu-item img {
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.site-footer {
+  background-color: #ffffff;
+  text-align: center;
+  border-top: 1px solid #eee;
+  color: #6b6b6b;
+  padding: 16px 0;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.about-box {
+  background-color: #f9f5f1;
+  border: 2px solid #d4b59e;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-box h2 {
+  text-align: center;
+  color: #3e2a1e;
+  margin-bottom: 20px;
+}
+
+.about-box p {
+  color: #4b3a2f;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.reservation-form {
+  background-color: #f9f5f1;
+  border: 2px solid #d4b59e;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

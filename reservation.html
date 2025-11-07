@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kopinfo — Selamat Datang</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="Logo Kopinfo" class="logo">
+        <span class="brand-name">Kopinfo</span>
+      </a>
+      <nav aria-label="Navigasi utama">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="reservation.html">Reservation</a> </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="background-image:url('images/coffee-bg.jpg')">
+      <div class="container hero-content">
+        <h1>Selamat Datang di Kopinfo</h1>
+        <p class="lead">Secangkir kopi, suasana nyaman, dan obrolan yang menyenangkan.</p>
+        <p><a class="btn" href="menu.html">Lihat Menu</a></p>
+      </div>
+    </section>
+
+    <section class="reservationForm">
+    <div class="container">
+      <h2>Reservasi Meja</h2>
+      <form action="#" method="post" class="reservation-form">
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Nomor Telepon:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="date">Tanggal Reservasi:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Waktu Reservasi:</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="guests">Jumlah Tamu:</label>
+        <input type="number" id="guests" name="guests" min="1" max="20" required>
+
+        <button type="submit" class="btn">Pesan Sekarang</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Kopinfo</strong> — Jl. Pluto Nomor 67</p>
+      <p class="small">© 2025 Kopinfo</p>
+    </div>
+  </footer>
+</body>
+</html>
